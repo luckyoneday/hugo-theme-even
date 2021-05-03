@@ -167,7 +167,7 @@ _italic 1_ and _italic 2_
 
 ```
 Web image
-![Web Picture](http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg "Web Picture")
+![Web Picture](https://count.getloli.com/get/@even-preview?theme=konachan "Web Picture")
 
 Local image
 ![Local Picture](logo-revolunet-carre.jpg "Local Picture")
@@ -188,7 +188,7 @@ With this link (https://github.com/revolunet/sublimetext-markdown-preview/), it 
 ```
 
 Web image
-![Web Picture](http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg "Web Picture")
+![Web Picture](https://count.getloli.com/get/@even-preview?theme=konachan "Web Picture")
 
 Local image
 ![Local Picture](/apple-touch-icon.png "Local Picture")
