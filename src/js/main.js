@@ -1,6 +1,6 @@
-import {Even} from './even.js'
+import { Even } from "./even.js";
 
-import '../css/style.scss'
+import "../css/style.scss";
 
 $(document).ready(function () {
   Even.backToTop();
@@ -19,4 +19,3 @@ if (window.hljs) {
 } else {
   Even.chroma();
 }
-

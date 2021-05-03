@@ -5,10 +5,7 @@ lastmod: 2018-02-01T18:01:23+08:00
 draft: false
 tags: ["shortcodes"]
 categories: ["shortcodes"]
-
----
-
-# Admonition
+---# Admonition
 
 {{% admonition note "I'm title!" false %}}
 biu biu biu.
@@ -94,45 +91,57 @@ biu biu biu.
 
 ```markdown
 ## default
+
 ![img](/path/to/img.gif "img")
 
 {{%/* center */%}}
+
 ## center
+
 ![img](/path/to/img.gif "img")
 {{%/* /center */%}}
 
 {{%/* right */%}}
+
 ## right
+
 ![img](/path/to/img.gif "img")
 {{%/* /right */%}}
 
 {{%/* left */%}}
+
 ## left
+
 ![img](/path/to/img.gif "img")
 {{%/* /left */%}}
 ```
 
 ## default
+
 ![img](https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg "img")
 
 {{% center %}}
+
 ## center
+
 ![img](https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg "img")
 {{% /center %}}
 
 {{% right %}}
+
 ## right
+
 ![img](https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg "img")
 {{% /right %}}
 
 {{% left %}}
+
 ## left
+
 ![img](https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg "img")
 {{% /left %}}
 
----
-
-## figure with class 
+---## figure with class
 
 ```
 {{%/* figure src="/path/to/img.gif" title="default" alt="img" */%}}
@@ -163,7 +172,9 @@ biu biu biu.
 ```
 
 {{% center %}}
+
 ## hybrid in center
+
 {{% figure src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" title="default" alt="img" %}}
 {{% figure class="right" src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" title="right" alt="img" %}}
 {{% left %}}
@@ -176,7 +187,9 @@ biu biu biu.
 # Music 163
 
 ## Params
+
 - `id`
+
   - required param
   - you can extract from music url
   - url format http://music.163.com/#/song?id=28196554
